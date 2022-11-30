@@ -1,1 +1,5 @@
 # homework
+
+## Prerequisites
+
+npm install
