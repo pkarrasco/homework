@@ -20,6 +20,6 @@ Introduce el numerador de la fracción:`);
 const denominatorTwo = console.readNumber(`Introduce el denominador de la fracción:`);
 
 const denominator = denominatorOne * denominatorTwo;
-const numerator = denominator / denominatorOne * numeratorOne + numeratorTwo * denominator / denominatorTwo;
+const numerator = denominator / denominatorOne * numeratorOne - numeratorTwo * denominator / denominatorTwo;
 
-console.writeln(`La suma de la fracción ${numeratorOne}/${denominatorOne} y la fracción ${numeratorTwo}/${denominatorTwo} es ${numerator}/${denominator}`);
+console.writeln(`La resta de la fracción ${numeratorOne}/${denominatorOne} y la fracción ${numeratorTwo}/${denominatorTwo} es ${numerator}/${denominator}`);
