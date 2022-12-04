@@ -179,7 +179,6 @@ function isTicTacToe(game) {
   return false;
 }
 
-
 function isResumed() {
   let result;
   let answer;
